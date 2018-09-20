@@ -25,21 +25,12 @@ namespace WinFormsControlLab
         }
 
         protected override void OnTextChanged(EventArgs e)
-
         {
-
-            double x;
-
-            if (!double.TryParse(Text, out x))
-
+            if (!double.TryParse(Text, out double x))
                 ForeColor = Color.Red;
-
             else
-
                 ForeColor = Color.Black;
-
             base.OnTextChanged(e);
-
         }
     }
 }

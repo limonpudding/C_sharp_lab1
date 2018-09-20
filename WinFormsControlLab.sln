@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsControlLab", "WinFo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestControlsApplication", "TestControlsApplication\TestControlsApplication.csproj", "{7F7A6C49-95E4-4E57-9053-7124DF125F03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsControlColor", "WindowsFormsControlColor\WindowsFormsControlColor.csproj", "{185266B4-AF7E-48B0-8F33-63B5D0CF6F6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsControlNumberText", "WindowsFormsControlNumberText\WindowsFormsControlNumberText.csproj", "{BA340C35-52EF-4ED6-A7B6-CDE925D1FCBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7F7A6C49-95E4-4E57-9053-7124DF125F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F7A6C49-95E4-4E57-9053-7124DF125F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F7A6C49-95E4-4E57-9053-7124DF125F03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{185266B4-AF7E-48B0-8F33-63B5D0CF6F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185266B4-AF7E-48B0-8F33-63B5D0CF6F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185266B4-AF7E-48B0-8F33-63B5D0CF6F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185266B4-AF7E-48B0-8F33-63B5D0CF6F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA340C35-52EF-4ED6-A7B6-CDE925D1FCBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA340C35-52EF-4ED6-A7B6-CDE925D1FCBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA340C35-52EF-4ED6-A7B6-CDE925D1FCBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA340C35-52EF-4ED6-A7B6-CDE925D1FCBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -29,33 +29,45 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.numberBox1 = new WinFormsControlLab.NumberBox(this.components);
+            this.numberBox2 = new WinFormsControlLab.NumberBox(this.components);
+            this.userControl11 = new WindowsFormsControlColor.UserControl1();
             this.SuspendLayout();
             // 
-            // numberBox1
+            // numberBox2
             // 
-            this.numberBox1.ForeColor = System.Drawing.Color.Red;
-            this.numberBox1.Location = new System.Drawing.Point(180, 107);
-            this.numberBox1.Name = "numberBox1";
-            this.numberBox1.Size = new System.Drawing.Size(100, 20);
-            this.numberBox1.TabIndex = 0;
+            this.numberBox2.ForeColor = System.Drawing.Color.Red;
+            this.numberBox2.Location = new System.Drawing.Point(382, 55);
+            this.numberBox2.Name = "numberBox2";
+            this.numberBox2.Size = new System.Drawing.Size(100, 20);
+            this.numberBox2.TabIndex = 0;
+            // 
+            // userControl11
+            // 
+            this.userControl11.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.userControl11.Location = new System.Drawing.Point(12, 55);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Size = new System.Drawing.Size(346, 136);
+            this.userControl11.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(485, 237);
-            this.Controls.Add(this.numberBox1);
+            this.ClientSize = new System.Drawing.Size(538, 307);
+            this.Controls.Add(this.userControl11);
+            this.Controls.Add(this.numberBox2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private WinFormsControlLab.NumberBox numberBox1;
+        
+        private WinFormsControlLab.NumberBox numberBox2;
+        private WindowsFormsControlColor.UserControl1 userControl11;
     }
 }
 
