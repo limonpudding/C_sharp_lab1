@@ -49,6 +49,15 @@
             this.userControl12.Size = new System.Drawing.Size(346, 136);
             this.userControl12.TabIndex = 1;
             // 
+            // elementHost1
+            // 
+            this.elementHost1.Location = new System.Drawing.Point(331, 113);
+            this.elementHost1.Name = "elementHost1";
+            this.elementHost1.Size = new System.Drawing.Size(407, 295);
+            this.elementHost1.TabIndex = 1;
+            this.elementHost1.Text = "elementHost1";
+            this.elementHost1.Child = this.userControl11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
