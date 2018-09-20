@@ -48,6 +48,10 @@
     <Reference Include="System.Xml" />
     <Reference Include="UIAutomationProvider" />
     <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsControlNumberText, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WindowsFormsControlNumberText\bin\Debug\WindowsFormsControlNumberText.dll</HintPath>
+    </Reference>
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>

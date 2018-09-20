@@ -15,14 +15,11 @@ using System.Windows.Shapes;
 
 namespace WinFormsControlLab
 {
-    /// <summary>
-    /// Interaction logic for UserControl1.xaml
-    /// </summary>
-    public partial class UserControl1 : UserControl
+    public partial class Clock : UserControl
     {
         System.Windows.Threading.DispatcherTimer timer;
 
-        public UserControl1()
+        public Clock()
         {
             InitializeComponent();
         }
