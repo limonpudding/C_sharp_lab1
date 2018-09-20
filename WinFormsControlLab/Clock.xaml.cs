@@ -34,9 +34,10 @@ namespace WinFormsControlLab
 
         private void timerTick(object sender, EventArgs e)
         {
-            second.RenderTransform = new RotateTransform(DateTime.Now.Second * 6);
-            minute.RenderTransform = new RotateTransform(DateTime.Now.Minute * 6);
-            hour.RenderTransform = new RotateTransform(DateTime.Now.Hour * 30);
+            DateTime dt = DateTime.Now;
+            second.RenderTransform = new RotateTransform(dt.Second * 6);
+            minute.RenderTransform = new RotateTransform(dt.Minute * 6 + dt.Second / 10);
+            hour.RenderTransform = new RotateTransform(dt.Hour * 30 + dt.Minute / 2);
         }
     }
 }
