@@ -125,13 +125,13 @@
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(91, 17);
             this.radioButton2.TabIndex = 12;
-            this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Шестнудцоть";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
             this.radioButton1.Location = new System.Drawing.Point(14, 93);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(63, 17);
