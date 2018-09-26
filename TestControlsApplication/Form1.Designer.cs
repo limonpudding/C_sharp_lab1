@@ -34,6 +34,7 @@
             this.numberBox1 = new WinFormsControlLab.NumberBox(this.components);
             this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
             this.clock1 = new WinFormsControlLab.Clock();
+            this.fileController1 = new WindowsFormsControlColor.FileController();
             this.SuspendLayout();
             // 
             // userControl11
@@ -62,16 +63,25 @@
             // 
             // elementHost1
             // 
-            this.elementHost1.Location = new System.Drawing.Point(12, 201);
+            this.elementHost1.Location = new System.Drawing.Point(12, 221);
             this.elementHost1.Name = "elementHost1";
-            this.elementHost1.Size = new System.Drawing.Size(326, 301);
+            this.elementHost1.Size = new System.Drawing.Size(291, 263);
             this.elementHost1.TabIndex = 3;
             this.elementHost1.Text = "elementHost1";
             this.elementHost1.Child = this.clock1;
             // 
+            // fileController1
+            // 
+            this.fileController1.FileName = "";
+            this.fileController1.Location = new System.Drawing.Point(12, 193);
+            this.fileController1.Name = "fileController1";
+            this.fileController1.Size = new System.Drawing.Size(308, 22);
+            this.fileController1.TabIndex = 4;
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(360, 522);
+            this.Controls.Add(this.fileController1);
             this.Controls.Add(this.elementHost1);
             this.Controls.Add(this.numberText1);
             this.Controls.Add(this.userControl11);
@@ -89,6 +99,7 @@
         private WindowsFormsControlNumberText.NumberText numberText1;
         private System.Windows.Forms.Integration.ElementHost elementHost1;
         private WinFormsControlLab.Clock clock1;
+        private WindowsFormsControlColor.FileController fileController1;
     }
 }
 
